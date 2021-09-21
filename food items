@@ -1,0 +1,21 @@
+#include<stdio.h>
+main()
+{
+	printf("Enter a number from 1 to 5 and a FOOD item will be deleivered to you according to menu");
+	int num;
+	scanf("%d",&num);
+	switch(num)
+	{
+		case 1 : printf("Food Item = Pizza \n Food Price = 300Rs ");
+		break;
+		case 2 : printf("Food Item = Burger \n Food Price = 199Rs ");
+		break;
+		case 3 : printf("Food Item = Shake \n Food Price = 99Rs ");
+		break;
+		case 4 : printf("Food Item = Noodles \n Food Price = 350Rs ");
+		break;
+		case 5 : printf("Food Item = Muffin \n Food Price = 150Rs ");
+		break;	
+	}
+	printf("MENU \n1 Pizza 300Rs \n2 Burger 199Rs \n3 Shake 99Rs \n4 Noodles 350Rs \n5 Muffin 150Rs ");
+}
